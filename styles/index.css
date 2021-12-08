@@ -1,3 +1,8 @@
+@font-face {
+    font-family: blazma;
+    src: url("../fonts/Blazma-X3eVP.ttf");
+}
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -47,4 +52,33 @@ nav {
 
 .nav-links ul li a:hover {
     color: rgb(232, 138, 255);
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+    font-family: blazma;
+}
+
+.text-box h2 {
+    margin: 10px 0 40px;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 800;
 }
